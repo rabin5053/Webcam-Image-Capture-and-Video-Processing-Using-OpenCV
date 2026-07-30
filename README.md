@@ -43,9 +43,9 @@ Resize the frame and rotate it using OpenCV functions, then display the processe
 ## 💻 Program
 
 ### Developed By:
-**Name:** SWETHA R
+**Name:** RABIN R
 
-### Register No: 2122251100055
+### Register No: 212224230213
 ---
 
 ## Output
