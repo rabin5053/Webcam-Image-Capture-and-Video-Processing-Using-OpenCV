@@ -40,43 +40,37 @@ Resize the frame and rotate it using OpenCV functions, then display the processe
 
 ---
 
-## 💻 Program
 
 ### Developed By:
 **Name:** RABIN R
 
-### Register No: 212224230213
+### Register No: 21222423230213
+
 ---
 
 ## Output
 
-### i) Write the frame as JPG image
-Captured image is saved as `captured_image.jpg`
+## i) Write the frame as JPG image
+Captured image is saved as captured_image.jpg
 ```
 import cv2
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
 import time
-```
-```
 cap = cv2.VideoCapture(0)
-
 ret, frame = cap.read()
-
 if ret:
     cv2.imwrite("captured_image.jpg", frame)
     print("Image Saved Successfully")
-
 cap.release()
 ```
+<img width="1552" height="991" alt="image" src="https://github.com/user-attachments/assets/14af4574-7850-40ed-ad6e-b779811e9364" />
 
 
-<img width="503" height="585" alt="Screenshot 2026-07-28 154910" src="https://github.com/user-attachments/assets/6834dec2-0237-4879-897a-5f439abe43fe" />
-
-
-### ii) Display the video
-Live webcam video is displayed
+## ii) Display the video
 ```
+Live webcam video is displayed
+
 import cv2
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
@@ -100,14 +94,14 @@ for i in range(50):
     time.sleep(0.05)
 
 cap.release()
-
 ```
+<img width="983" height="737" alt="image" src="https://github.com/user-attachments/assets/399f908f-d48f-4d42-a817-34e42c442050" />
 
-<img width="378" height="457" alt="Screenshot 2026-07-28 154938" src="https://github.com/user-attachments/assets/6317908c-52e8-4297-b4af-2e291c4b38c6" />
 
-### iii) Display the video by resizing the window
+## iii) Display the video by resizing the window
+```
 Video is shown in resized resolution (640 × 480)
-```
+
 import cv2
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
@@ -136,11 +130,10 @@ for i in range(50):
 
 cap.release()
 ```
+<img width="1020" height="687" alt="image" src="https://github.com/user-attachments/assets/6ac7b766-4047-4a04-ba7a-3b4b1e9c6ad1" />
 
-<img width="416" height="459" alt="Screenshot 2026-07-28 154958" src="https://github.com/user-attachments/assets/fab35a29-9b23-4b30-9b5e-9ef819f7f5e2" />
 
-
-### iv) Rotate and display the video
+## iv) Rotate and display the video
 Video is displayed after rotation (90° clockwise)
 ```
 import cv2
@@ -171,9 +164,7 @@ for i in range(50):
 
 cap.release()
 ```
-
-<img width="340" height="293" alt="Screenshot 2026-07-28 155009" src="https://github.com/user-attachments/assets/b624f931-b5af-47b4-987f-33f792ec0f42" />
-
+<img width="966" height="692" alt="image" src="https://github.com/user-attachments/assets/37874e34-3316-4aa2-9c62-e5d0a52e5e8c" />
 
 
 ## Result
